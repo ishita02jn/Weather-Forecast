@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <form id="forecastFormID">
+            <input id="address" placeholder="Enter Location"  type="text" name="address">
+            <button>search</button>
+        </form>
+
+        <p id="msg-1"></p>
+        <p id="msg-2"></p>
+    </div>
+    {{>footer}}
+
+    <script src="/js/app.js" ></script>
+</body>
+
+</html>
